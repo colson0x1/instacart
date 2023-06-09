@@ -1,0 +1,24 @@
+{
+  "name": "instacart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colson0x1/instacart.git"
+  },
+  "author": "Colson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colson0x1/instacart/issues"
+  },
+  "homepage": "https://github.com/colson0x1/instacart#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
+
