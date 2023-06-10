@@ -19,10 +19,19 @@ class UsersRepository {
       await fs.promises.readFile(this.filename, { encoding: 'utf8' })
     );
   }
+
+  async create(attrs) {
+    const records = await this.getAll();
+    records.push(attrs);
+
+    await fs.promises.writeFile(this.filename, JSON.stringify(records));
+  }
 }
 
 const test = async () => {
   const repo = new UsersRepository('users.json');
+
+  await repo.create({ email: 'cols@google.com', password: 'googleInc.' });
 
   const users = await repo.getAll();
   console.log(users);
