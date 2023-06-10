@@ -1,1 +1,14 @@
-[{"email":"cols@google.com","password":"googleInc."}]
+[
+  {
+    "email": "cols@google.com",
+    "password": "googleInc."
+  },
+  {
+    "email": "cols@google.com",
+    "password": "googleInc."
+  },
+  {
+    "email": "cols@google.com",
+    "password": "googleInc."
+  }
+]
