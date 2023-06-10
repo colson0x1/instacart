@@ -18,8 +18,18 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
+  req.on('data', (data) => {
+    const parsed = data.toString('utf-8').split('&');
+    const formData = {};
+
+    for (let pair of parsed) {
+      const [key, value] = pair.split('=');
+      formData[key] = value;
+    }
+    console.log(formData);
+  });
   res.send('Account created!!');
-})
+});
 
 app.listen(3000, () => {
   console.log('Listening at port 3000...');
