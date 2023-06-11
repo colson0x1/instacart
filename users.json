@@ -1,5 +1,10 @@
 [
   {
     "email": "cols@google.com"
+  },
+  {
+    "email": "apple@apple.com",
+    "password": "apple",
+    "id": "8af58f1f"
   }
 ]
