@@ -13,7 +13,7 @@ const { requireEmail, requirePassword, requirePasswordConfirmation } = require('
 const router = express.Router();
 
 router.get('/signup', (req, res) => {
-  res.send(signupTemplate({ req: req }));
+  res.send(signupTemplate({ req }));
 });
 
 router.post(
@@ -21,7 +21,10 @@ router.post(
   [requireEmail, requirePassword, requirePasswordConfirmation],
   async (req, res) => {
     const errors = validationResult(req);
-    console.log(errors);
+    
+    if (!errors.isEmpty()) {
+        return res.send(signupTemplate({ req, errors }));
+    }
 
     const { email, password, passwordConfirmation } = req.body;
     const user = await usersRepo.create({ email, password });
