@@ -28,7 +28,7 @@ app.get('/signup', (req, res) => {
   );
 });
 
-app.post('/signup ', async (req, res) => {
+app.post('/signup', async (req, res) => {
   const { email, password, passwordConfirmation } = req.body;
 
   const existingUser = await usersRepo.getOneBy({ email });
