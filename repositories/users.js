@@ -34,7 +34,7 @@ class UsersRepository {
     const records = await this.getAll();
     const record = {
       ...attrs,
-      password: `${buffer.toString('hex')}.${salt}`
+      password: `${buffer.toString('hex')}.${salt}`,
     };
     records.push(record);
 
@@ -46,12 +46,11 @@ class UsersRepository {
   async comparePasswords(saved, supplied) {
     // Saved -> password saved in our database. 'hashed.salt'
     // Supplied -> password given to us by a user trying to sign in.
-    const result = saved.split('.');
 
     const [hashed, salt] = saved.split('.');
     const hashedSuppliedBuffer = await scrypt(supplied, salt, 64);
-
-    return  hashed === hashedSuppliedBuffer.toString('hex');
+ 
+    return hashed === hashedSuppliedBuffer.toString('hex');
   }
 
   async writeAll(records) {

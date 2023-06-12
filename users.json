@@ -1,8 +1,5 @@
 [
   {
-    "email": "cols@google.com"
-  },
-  {
     "email": "apple@apple.com",
     "password": "apple",
     "id": "8af58f1f"
@@ -21,5 +18,20 @@
     "email": "cols@google.com",
     "password": "50fa98f790076f6e47db5c3b4fe2707e9c93cec2823116d30cc98c113435a57b211e981c934bfdf8d8b97d08e9ef9b3293011340716a16d89c132880099c61a4.cab791e39ee9137a",
     "id": "5038defb"
+  },
+  {
+    "email": "instagram@instagram.com",
+    "password": "75c21d220f0c3b4a6d5f99efe879b5593257cd2721c9bb88d896a49e9af188d45f6141d76287da0fe1b22798728a82595bf8668a4ac843e9a37ca167b5336fea.a326421237020189",
+    "id": "72cfaab4"
+  },
+  {
+    "email": "facebook@facebook.com",
+    "password": "a453d83634d94a936d9ff88f895da45c23a5749123224877f48ca79a3a2d50eaaa1b058cd43b0fb7867b34ecd4c32a25a6a12060bf21271d424b5afe7a8af101.c79473bc3a00c3ea",
+    "id": "140fef46"
+  },
+  {
+    "email": "netflix@netflix.com",
+    "password": "0f4f2bfde027d6c2557d18dc04fd01aa0c8d425d12cb12f34814698c0253a0d2e12d47730276c99b9c75737946c12070ee1442c6ba87665d0a1b2d0b0fb806d5.a80db7f046219318",
+    "id": "1f1bed9e"
   }
 ]
