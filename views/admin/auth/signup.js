@@ -33,6 +33,6 @@ module.exports = ({ req, errors }) => {
           </div>
         </div>
       </div>
-    `
+    `,
   });
 };

@@ -14,7 +14,7 @@ app.use(
   })
 );
 app.use(authRouter);
-app.use(productRouter);
+app.use(productsRouter);
 
 
 app.listen(3000, () => {
