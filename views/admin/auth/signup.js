@@ -29,7 +29,7 @@ module.exports = ({ req, errors }) => {
               </div>
               <button class="button is-primary">Sign Up</button>
             </form>
-            <a href="/signin">Have an account? Sign In</a>
+            <a href="/login">Have an account? Login</a>
           </div>
         </div>
       </div>

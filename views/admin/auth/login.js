@@ -8,7 +8,7 @@ module.exports = ({ errors }) => {
         <div class="columns is-centered">
           <div class="column is-one-quarter">
             <form method="POST">
-              <h1 class="title">Sign in</h1>
+              <h1 class="title">Login</h1>
               <div class="field">
                 <label class="label">Email</label>
                 <input required class="input" placeholder="Type your email" name="email" />
