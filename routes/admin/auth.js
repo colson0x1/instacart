@@ -28,11 +28,11 @@ router.post(
 
     req.session.userId = user.id;
 
-    res.send('Account created!!');
+    res.redirect('/admin/products');
   }
 );
 
-router.get('/signout', (req, res) => {
+router.get('/logout', (req, res) => {
   req.session = null;
   res.send("You're logged out.");
 });
@@ -52,7 +52,7 @@ router.post(
 
     req.session.userId = user.id;
 
-    res.send("You're signed in!!!");
+    res.redirect('/admin/products');
   }
 );
 
