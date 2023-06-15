@@ -40,6 +40,23 @@ body {
   color: #468bfb !important;
 }
 
+.shopping-cart {
+  color: rgb(34, 83, 167) !important;
+  font-size: 2.5rem !important;
+  line-height: 5.5rem !important;
+}
+
+.cart-btn:hover {
+  background-color: #468bfb;
+}
+
+.buy-btn {
+  background-color: #468bfb !important; 
+}
+.buy-btn:hover {
+  background-color: rgb(34, 83, 167) !important;  
+}
+
 .columns.products {
   flex-wrap: wrap;
 }
