@@ -1,9 +1,9 @@
 body {
-  --primary: #631d76;
-  --secondary: #9e4770;
+  --primary: #4285F4;
+  --secondary: #3766b0;
   --white: #fbfbfb;
-  --dark: #2e2532;
-  --black: #201a23;
+  --dark: #2f2932;
+  --black: #161218;
 }
 
 .product-card figure {
@@ -22,8 +22,22 @@ body {
   color: var(--white);
 }
 
+.brand {
+  color: #E50914 !important;
+  letter-spacing: 1.5px;
+  font-weight: 700 !important;
+  font-size: 3.5rem !important;
+}
+
 .banner {
   margin: 50px;
+  height: 200px;
+}
+
+.subtitle {
+  font-weight: 700 !important;
+  font-size: 1.8rem !important;
+  color: #468bfb !important;
 }
 
 .columns.products {
@@ -137,7 +151,8 @@ body {
 }
 
 .price {
-  margin: 0 20px;
+  margin: 0 auto;
+  font-size: 2rem !important;
 }
 
 .cart-right {
