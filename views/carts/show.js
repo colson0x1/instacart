@@ -53,7 +53,7 @@ module.exports = ({ items }) => {
                 Total
               </div>
               <h1 class="title">$${totalPrice}</h1>
-              <button class="button is-primary buy-btn">Buy</button>
+              <button class="button is-primary blue-btn">Buy</button>
             </div>
           </div>
           <div class="column"></div>

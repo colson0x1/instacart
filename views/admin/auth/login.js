@@ -19,7 +19,7 @@ module.exports = ({ errors }) => {
                 <input required class="input" placeholder="Type password" name="password" type="password" />
                 <p class="help is-danger">${getError(errors, 'password')}</p>
               </div>
-              <button class="button is-primary">Sign In</button>
+              <button class="button is-primary blue-btn">Sign In</button>
             </form>
             <a href="/signup">Need an account? Sign Up</a>
           </div>

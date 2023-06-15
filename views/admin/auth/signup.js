@@ -27,7 +27,7 @@ module.exports = ({ req, errors }) => {
                   'passwordConfirmation'
                 )}</p>
               </div>
-              <button class="button is-primary">Sign Up</button>
+              <button class="button is-primary blue-btn">Sign Up</button>
             </form>
             <a href="/login">Have an account? Login</a>
           </div>

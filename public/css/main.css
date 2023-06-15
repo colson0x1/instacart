@@ -50,10 +50,10 @@ body {
   background-color: #468bfb;
 }
 
-.buy-btn {
+.blue-btn {
   background-color: #468bfb !important; 
 }
-.buy-btn:hover {
+.blue-btn:hover {
   background-color: rgb(34, 83, 167) !important;  
 }
 

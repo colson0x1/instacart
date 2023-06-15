@@ -1,10 +1,5 @@
 [
   {
-    "email": "apple@apple.com",
-    "password": "apple",
-    "id": "8af58f1f"
-  },
-  {
     "email": "airbnb@airbnb.com",
     "password": "8923ad3efc998fa51de28e83b120e18c4ff300954decf9aa96d8f991990449166b354249256fc7dc2f82d8ec3a6cfb8d126371678251c9c880441b918d26ac41.33fb304f585c0d1d",
     "id": "f28006ff"
@@ -13,11 +8,6 @@
     "email": "map@google.com",
     "password": "c09646d59c49fe756544762543554147374f5ba6c7e71cf307e684273e994257395182dc20bbe204704402239fe328bf0bfced39e98d500f3587859887b32d2f.0d5a446a63514863",
     "id": "3c269854"
-  },
-  {
-    "email": "cols@google.com",
-    "password": "50fa98f790076f6e47db5c3b4fe2707e9c93cec2823116d30cc98c113435a57b211e981c934bfdf8d8b97d08e9ef9b3293011340716a16d89c132880099c61a4.cab791e39ee9137a",
-    "id": "5038defb"
   },
   {
     "email": "instagram@instagram.com",
@@ -38,5 +28,15 @@
     "email": "twitter@twitter.com",
     "password": "4178aaeb22eb351b7e4553d874644fc9e28e5fbd92a5ba9d9f0d7cbd3856c64b932641cc6a3c7330750f3dc93350e81a7f0c64bce0db7a42fff6367552f0a34a.2834ccf2ce6c92b4",
     "id": "90d8b619"
+  },
+  {
+    "email": "cols@google.com",
+    "password": "6d5198a4d832554863e307d5d96b4cc4f453a8174a0c952246031bdf414b410670569ab580620576e9226834a321775c13af91cc8ee60fc4cdf19b075874b6c9.09a180fb6604d55b",
+    "id": "23ba9d9e"
+  },
+  {
+    "email": "colson@google.com",
+    "password": "bfd7e439e5dc29a5d517b4e799f612d55faff7bc90a7cc723d5304bc6577a512e41be67a9c7683d2e26a8c691ee8cc6aadf10e3e651ba842c568f269f5d75f8d.d3505f96a9e51d3b",
+    "id": "e58cba5c"
   }
 ]
